@@ -1,8 +1,9 @@
 # Gauss-Jordan
-# 1) Sinh viên viết hàm Gauss_elimination(A), trong đó:
-   Input: A ma trận mở rộng của hệ phương trình.
-   Output: ma trận có dạng bậc thang có được từ ma trận A.
-
-# 2) Sinh viên viết hàm back_substitution(A), trong đó:
-   Input: A ma trận có dạng bậc thang từ từ ma trận mở rộng của hệ phương trình Ax=b.
-   Output: nghiệm của hệ phương trình ( trường hợp nghiệm duy nhất/ vô số nghiệm ) hoặc thông báo hệ phương trình vô nghiệm.
+Sinh viên viết hàm inverse(A), trong đó
+ Input: A là ma trận vuông.
+ Output:
+Ma trận nghịch đảo của ma trận A ban đầu nếu có, trường hợp không có ma
+trận nghịch đảo sẽ hiện thông báo " Ma trận không khả nghịch ". Lưu ý sinh
+viên phải sử dụng thuật toán đã được hướng dẫn trong phần bài tập để tìm
+nghịch đảo( dùng ma trận (A|I) ). Sinh viên không được dùng các hàm có sẵn
+của các thư viện để tìm định thức hoặc ma trận nghịch đảo.
